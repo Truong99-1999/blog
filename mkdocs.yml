@@ -14,17 +14,7 @@ theme:
         code: JetBrains Mono
     language: en
     
-    # palette:
-      # # Light mode
-      # - media: "(prefers-color-scheme: light)"
-      #   scheme: default
-      #   primary: deep purple
-      #   accent: light blue
     palette:
-      - media: "(prefers-color-scheme)"
-        toggle:
-          icon: material/link
-          name: Switch to light mode
       - media: "(prefers-color-scheme: light)"
         scheme: default
         primary: indigo
@@ -39,16 +29,17 @@ theme:
         toggle:
           icon: material/toggle-switch-off
           name: Switch to system preference
+      - media: "(prefers-color-scheme: light)"
+        toggle:
+          icon: material/link
+          name: Switch to light mode
 
-        
     features:
       - search.suggest
       - search.highlight
       - navigation.footer
 
 copyright: Copyright &copy; 2024 thienqc
-
-
 
 plugins:
   - search
@@ -87,7 +78,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
@@ -96,5 +86,3 @@ markdown_extensions:
           case: lower
   - toc:
       permalink: true
-
-
