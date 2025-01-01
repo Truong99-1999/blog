@@ -1,7 +1,7 @@
-site_name: truongpd
-site_description: truongpd's blog
+site_name: Truong99-1999
+site_description: Truong99-1999's blog
 site_url: https://github.com/Truong99-1999/blog/
-site_author: truongpd
+site_author: Truong99-1999
 
 theme:
     name: material
@@ -46,7 +46,7 @@ theme:
       - search.highlight
       - navigation.footer
 
-copyright: Copyright &copy; 2024 truongpd
+copyright: Copyright &copy; 2024 Truong99-1999
 
 
 
@@ -96,5 +96,3 @@ markdown_extensions:
           case: lower
   - toc:
       permalink: true
-
-
